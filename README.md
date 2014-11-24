@@ -16,13 +16,13 @@ About the script and the tidy dataset:
 
 I created a script called run_analysis.R which will merge the test and training sets together. Prerequisites for this script:
 
-the UCI HAR Dataset must be extracted and..
-the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
+The UCI HAR Dataset must be extracted to the working directory
+The UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
 This allows the if your working directory contains the folder "UCI HAR Dataset" which in turn has the folders for the data "test" and "train"; the script will run.
-Assume that you are in the working directory when you execute the script and the  the UCI HAR Dataset must be availble in the working directory called "UCI HAR Dataset"
-it then contains the two folders "train" and "test" which contain the Samsung data
-X_train.txt,Y_train.txt,subject_train.txt in the "train" folder and X_test.txt,Y_test.txt,
-subject_test.txt in the "test" folder.  Of course we expect the activity_labels.txt to be in the 
+Assume that you are in the working directory when you execute the script and the  folder "UCI HAR Dataset" must be availble in the working directory it then contains the two folders "train" and "test" which contain the Samsung data:
+X_train.txt,Y_train.txt, subject_train.txt in the "train" folder and X_test.txt,Y_test.txt,
+subject_test.txt in the "test" folder.
+Of course we expect the activity_labels.txt to be in the 
 UCI HAR Dataset folder.
 
 After merging testing and training, labels are added and only columns that have to do with mean and standard deviation are kept.
